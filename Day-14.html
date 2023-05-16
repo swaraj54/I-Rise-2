@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 14</title>
+    <style>
+        #parent {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            width: 100%;
+            border: 5px solid red;
+        }
+
+        #parent>div {
+            height: 200px;
+            width: 30%;
+            border: 2px solid black;
+            text-align: center;
+        }
+
+        #parent>div>div {
+            color: blue;
+            border: 2px solid gold;
+            width: 100%;
+            height: 30%;
+
+        }
+
+        @media screen and (max-width : 400px) {
+            #parent {
+                flex-direction: column;
+                border: 5px solid blue;
+            }
+
+            #parent>div {
+                border: 2px solid yellowgreen;
+                width: 90%;
+                margin: auto;
+            }
+
+            #parent>div {
+                /* border: 10px solid black; */
+                display: flex;
+                flex-direction: row;
+                /* height: 200px; */
+            }
+
+            #parent>div>div {
+                border: 2px solid red;
+            }
+            #parent > div:nth-child(1) > div:nth-child(1) > h2{
+                color: red
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="parent">
+        <div>
+            <div>
+                <h2 id="text">A -1</h2>
+            </div>
+            <div>B</div>
+            <div>C</div>
+        </div>
+        <div>
+            <div>A -2</div>
+            <div>B</div>
+            <div>C</div>
+        </div>
+        <div>
+            <div>A -3</div>
+            <div>B</div>
+            <div>C</div>
+        </div>
+    </div>
+
+</body>
+
+</html>
