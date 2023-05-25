@@ -15,15 +15,15 @@
 // if(){}
 // for(starting limit, condition with ending limit, steps){}
 
-for(var i = 1; i <= 20; i = i + 1  ){
-    console.log(i)
-}
-for(var i = 1; i <= 20; i = i + 2  ){
-    console.log(i)
-}
-for(var i = 10; i <= 20; i = i + 1  ){
-    console.log(i)
-}
+// for(var i = 1; i <= 20; i = i + 1  ){
+//     console.log(i)
+// }
+// for(var i = 1; i <= 20; i = i + 2  ){
+//     console.log(i)
+// }
+// for(var i = 10; i <= 20; i = i + 1  ){
+//     console.log(i)
+// }
 for(var i = 10; i <= 100; i = i + 5  ){
     console.log(i)
 }
