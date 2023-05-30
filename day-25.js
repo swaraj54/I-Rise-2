@@ -15,23 +15,23 @@ findGreaterNumber(array, target);
 
 // varibles - var , let , const 
 
-var myName = "Swaraj"; // assigining
-myName = "Irise"; // re-assigning
-var myName = "Irise"; // re-decleare
-console.log(myName)
-// Reasssign and redeclare possible 
-
-
-let myName = "Swaraj";
-myName = 'Irise';
-let myName = 'Abc';
+// var myName = "Swaraj"; // assigining
+// myName = "Irise"; // re-assigning
+// var myName = "Irise"; // re-decleare
 // console.log(myName)
+// // Reasssign and redeclare possible 
 
-// Reassign is possible but redeclaer is not 
 
-const myName = 'Swaraj';
-// myName = "Abc";
-// const myName = "abc"
-console.log(myName);
+// let myName = "Swaraj";
+// myName = 'Irise';
+// let myName = 'Abc';
+// // console.log(myName)
+
+// // Reassign is possible but redeclaer is not 
+
+// const myName = 'Swaraj';
+// // myName = "Abc";
+// // const myName = "abc"
+// console.log(myName);
 
 // Reassigning is not possible and Redeclare is not possible
