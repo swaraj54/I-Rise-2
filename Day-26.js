@@ -25,23 +25,28 @@
 
 
 function popup() {
-    console.log('Heloo world.')
-    console.log('Heloo world.')
-    console.log('Heloo world.')
-    console.log('Heloo world.')
-    console.log('Heloo world.')
-    alert("Welcome Students!")
+  console.log('Heloo world.')
+  console.log('Heloo world.')
+  console.log('Heloo world.')
+  console.log('Heloo world.')
+  console.log('Heloo world.')
+  alert("Welcome Students!")
 }
 
-function popup2(){
-    alert("Hiiiii")
+function popup2() {
+  alert("Hiiiii")
 }
 
-function MyApp() {
-    return (
-      <div>
-        <h1>Welcome to my app</h1>
-        <MyButton />
-      </div>
-    );
-  }
+// function MyApp() {
+//     return (
+//       <div>
+//         <h1>Welcome to my app</h1>
+//         <MyButton />
+//       </div>
+//     );
+//   }
+
+function testing() {
+  var myDiv = document.getElementById('root').innerHTML;
+  console.log(myDiv)
+}
